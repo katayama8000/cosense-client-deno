@@ -1,6 +1,6 @@
 {
     "name": "@katayama8000/cosense-client",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "license": "MIT",
     "exports": "./mod.ts",
     "include": [
@@ -8,10 +8,8 @@
     ],
     "exclude": [
         ".devcontainer/**",
-        "Dockerfile",
-        "fmt.sh",
-        "run.sh",
         "compose.yaml",
-        "README.md"
+        "Dockerfile",
+        "run.sh"
     ]
 }
