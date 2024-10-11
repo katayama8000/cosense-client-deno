@@ -1,1 +1,1 @@
-export * from "./src/main.ts";
+export { CosenseClient } from "./src/main.ts";
