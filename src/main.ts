@@ -1,3 +1,20 @@
+/**
+ * @module CosenseClient
+ * This module provides a client for interacting with the Scrapbox API.
+ * It allows you to check if a page exists in a Scrapbox project and retrieve details of a specific page.
+ *
+ * Usage:
+ *
+ * ```ts
+ * import { CosenseClient } from './cosenseClient.ts';
+ *
+ * const client = CosenseClient('projectName');
+ *
+ * const pageExists = await client.checkPageExist('PageTitle');
+ * const pageData = await client.getPage('PageTitle');
+ * ```
+ */
+
 import type { PageResponse } from "./types/pageResponse.ts";
 
 const base_url = "https://scrapbox.io/api/pages/";
