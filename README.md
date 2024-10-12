@@ -3,6 +3,8 @@
 This is a client for the Cosense API built with Deno. You can install it from
 jsr.
 
+[![JSR](https://jsr.io/badges/@katayama8000/cosense-client)](https://jsr.io/@katayama8000/cosense-client)
+
 ## Overview
 
 I just want a type-safe client for Cosense. I don't want to use the REST API
